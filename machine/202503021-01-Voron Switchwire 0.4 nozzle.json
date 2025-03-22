@@ -1,0 +1,26 @@
+{
+    "from": "User",
+    "inherits": "Voron Switchwire 0.4 nozzle",
+    "is_custom_defined": "0",
+    "machine_max_acceleration_extruding": [
+        "1500",
+        "20000"
+    ],
+    "machine_max_acceleration_retracting": [
+        "1500",
+        "5000"
+    ],
+    "machine_max_acceleration_x": [
+        "3500",
+        "20000"
+    ],
+    "machine_max_acceleration_y": [
+        "3500",
+        "20000"
+    ],
+    "machine_start_gcode": "PRINT_START EXTRUDER=[nozzle_temperature_initial_layer] BED=[bed_temperature_initial_layer_single]\n; You can use following code instead if your PRINT_START macro support Chamber and print area bedmesh\n; PRINT_START EXTRUDER=[nozzle_temperature_initial_layer] BED=[bed_temperature_initial_layer_single] Chamber=[chamber_temperature] PRINT_MIN={first_layer_print_min[0]},{first_layer_print_min[1]} PRINT_MAX={first_layer_print_max[0]},{first_layer_print_max[1]}",
+    "name": "202503021-01-Voron Switchwire 0.4 nozzle",
+    "printer_notes": "removed \n\nM190 S[bed_temperature_initial_layer_single]\nM109 S[nozzle_temperature_initial_layer]\n\nfrom print start because I think the probe temp problem occurs there",
+    "printer_settings_id": "202503021-01-Voron Switchwire 0.4 nozzle",
+    "version": "2.3.0.3"
+}

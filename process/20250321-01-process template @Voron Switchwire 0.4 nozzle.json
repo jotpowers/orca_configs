@@ -1,0 +1,15 @@
+{
+    "brim_object_gap": "1",
+    "brim_type": "outer_only",
+    "default_acceleration": "3000",
+    "from": "User",
+    "inherits": "process template @Voron Switchwire 0.4 nozzle",
+    "inner_wall_acceleration": "2000",
+    "is_custom_defined": "0",
+    "name": "20250321-01-process template @Voron Switchwire 0.4 nozzle",
+    "outer_wall_acceleration": "2000",
+    "print_settings_id": "20250321-01-process template @Voron Switchwire 0.4 nozzle",
+    "travel_acceleration": "3000",
+    "version": "1.7.0.2",
+    "wall_generator": "arachne"
+}

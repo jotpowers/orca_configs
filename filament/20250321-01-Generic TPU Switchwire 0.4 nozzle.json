@@ -1,0 +1,16 @@
+{
+    "filament_max_volumetric_speed": [
+        "3"
+    ],
+    "filament_settings_id": [
+        "20250321-01-Generic TPU Switchwire 0.4 nozzle"
+    ],
+    "from": "User",
+    "inherits": "Generic TPU template @Voron Switchwire 0.4 nozzle",
+    "is_custom_defined": "0",
+    "name": "20250321-01-Generic TPU Switchwire 0.4 nozzle",
+    "nozzle_temperature": [
+        "235"
+    ],
+    "version": "1.7.0.2"
+}

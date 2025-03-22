@@ -1,0 +1,30 @@
+{
+    "from": "User",
+    "inherits": "Voron Switchwire 0.4 nozzle",
+    "is_custom_defined": "0",
+    "machine_max_acceleration_extruding": [
+        "3000",
+        "20000"
+    ],
+    "machine_max_acceleration_retracting": [
+        "3000",
+        "5000"
+    ],
+    "machine_max_acceleration_x": [
+        "3500",
+        "20000"
+    ],
+    "machine_max_acceleration_y": [
+        "1750",
+        "20000"
+    ],
+    "machine_max_speed_y": [
+        "400",
+        "200"
+    ],
+    "machine_start_gcode": "PRINT_START EXTRUDER=[nozzle_temperature_initial_layer] BED=[bed_temperature_initial_layer_single]\n;\nM109 S[nozzle_temperature_initial_layer] \nM190 S[bed_temperature_initial_layer_single]\n\n;\n; You can use following code instead if your PRINT_START macro support Chamber and print area bedmesh\n; PRINT_START EXTRUDER=[nozzle_temperature_initial_layer] BED=[bed_temperature_initial_layer_single] Chamber=[chamber_temperature] PRINT_MIN={first_layer_print_min[0]},{first_layer_print_min[1]} PRINT_MAX={first_layer_print_max[0]},{first_layer_print_max[1]}",
+    "name": "202503021-Final-Voron Switchwire 0.4 nozzle",
+    "printer_notes": "removed \n\nM190 S[bed_temperature_initial_layer_single]\nM109 S[nozzle_temperature_initial_layer]\n\nfrom print start because I think the probe temp problem occurs there",
+    "printer_settings_id": "202503021-Final-Voron Switchwire 0.4 nozzle",
+    "version": "2.3.0.3"
+}
